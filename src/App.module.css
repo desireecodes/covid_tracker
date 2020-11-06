@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    background-color: #030D22;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 370px;
+    margin-top: 50px;
+}
+
+@media(max-width: 770px) {
+    .container {
+        margin: 0 10%;
+    }
+
+    .image{
+        width: 50%;
+    }
+
+}
