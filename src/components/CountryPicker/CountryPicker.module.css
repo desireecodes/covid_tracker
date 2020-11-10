@@ -4,3 +4,8 @@
     margin-top: 30px !important;
 
 }
+@media (max-width: 770px) {
+    .formControl {
+        width: 100%;
+    }
+}
