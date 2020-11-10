@@ -20,6 +20,7 @@ const CountryPicker = ({ handleCountryChange }) => {
     const useStyles = makeStyles({
         select: {
           color: 'grey',
+          variant:'h2',
         },
         icon: {
             color: 'grey',
